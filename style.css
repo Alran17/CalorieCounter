@@ -1,0 +1,79 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('./WechatIMG668.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.navbar:hover {
+    background-color: white;
+    opacity: 1;
+}
+
+.navbar .nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+
+.navbar-button:hover {
+    background-color: #1d76db44;
+}
+
+.navbar-profile {
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.main-container {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-40%, -50%);
+}
+
+.main-button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.main-button:hover {
+    background-color: #c0392b;
+}
+
+h2{
+    font-size: 15px;
+}
+
+h1{
+    font-size: 35px;
+}
+
